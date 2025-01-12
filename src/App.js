@@ -1,15 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-function myproduct(){
-    let product = ["product1","product2","product3"]
-    return console.log(product)
-}
+import { Personal,Person } from './component/button';
 function App() {
   return (
-    <div className="App">
-        {myproduct()}
-    </div>
+      <div className="App">
+        <Personal></Personal>
+      </div>
+     
   );
 }
+
 
 export default App;
